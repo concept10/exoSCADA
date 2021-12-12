@@ -1,0 +1,3 @@
+[submodule "mdns"]
+	path = mdns
+	url = https://github.com/mjansson/mdns.git
