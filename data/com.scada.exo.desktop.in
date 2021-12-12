@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=exoscada
+Exec=exoscada
+Icon=com.scada.exo
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
