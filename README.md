@@ -8,7 +8,7 @@
 
 ## Contributors
 
-[__Contributors__](https://github.com/concept10/exoSCADA/graphs/contributors).
+[__Contributors__](https://github.com/concept10/exoSCADA/graphs/contributors)
 
 ## License
 
