@@ -1,3 +1,6 @@
 [submodule "mdns"]
 	path = mdns
 	url = https://github.com/mjansson/mdns.git
+[submodule "blueprint-compiler"]
+	path = blueprint-compiler
+	url = https://gitlab.gnome.org/jwestman/blueprint-compiler.git
