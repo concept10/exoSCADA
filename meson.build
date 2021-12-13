@@ -5,7 +5,23 @@ project('exoscada', ['c', 'vala'],
                    ],
 )
 
+gnome = import 'gnome'
 i18n = import('i18n')
+
+cc = meson.get_compiler('c')
+################################################################################
+# Dependencies
+
+giomm   = dependency('giomm-2.4',   version: '>=2.46')
+glib    = dependency('glib-2.0',    version: '>=2.56.0')
+
+if get_option('systemd')
+  libsystemd = dependency('libsystemd', version: '>=237')
+else
+  libsystemd = dependency('', required: false)
+endif
+
+gtk3    = dependency('gtk+-3.0',    version: '>=3.22.0')
 
 
 
