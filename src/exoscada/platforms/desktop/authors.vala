@@ -5,4 +5,9 @@ public const string[] AUTHORS = {
 };
 
 
+public const string[] COPYRIGHT = {
+    "Copyright (C) 2010 Tracey Ledbetter",
+    null;
+};
+
 
