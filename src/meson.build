@@ -1,3 +1,13 @@
+project(
+  'io.outlawd.exoSCADA',
+  'c', 'vala',
+  'javascript',
+  'python3',
+  'nodejs'
+  version: '0.1.0'
+)
+
+
 exoscada_sources = [
   'main.vala',
   'window.vala',
