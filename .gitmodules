@@ -4,3 +4,6 @@
 [submodule "blueprint-compiler"]
 	path = blueprint-compiler
 	url = https://gitlab.gnome.org/jwestman/blueprint-compiler.git
+[submodule "telegraf"]
+	path = telegraf
+	url = https://github.com/influxdata/telegraf.git
