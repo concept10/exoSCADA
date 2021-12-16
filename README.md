@@ -12,7 +12,7 @@
 
 ## License
 
-
+GPL-2.0
 
 ## Powered By
 
