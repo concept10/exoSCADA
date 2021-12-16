@@ -14,6 +14,10 @@
 
 
 
+## Powered By
+
+
+
 
 [wiki-img]: https://img.shields.io/badge/docs-Wiki-blue.svg
 [wiki]: https://github.com/https://github.com/concept10/exoSCADA/wiki
