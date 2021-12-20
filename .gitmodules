@@ -7,3 +7,6 @@
 [submodule "telegraf"]
 	path = telegraf
 	url = https://github.com/influxdata/telegraf.git
+[submodule "db-test/questdb"]
+	path = db-test/questdb
+	url = https://github.com/questdb/questdb.git
