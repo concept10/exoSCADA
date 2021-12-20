@@ -14,7 +14,7 @@ namespace S7.Net
     /// Creates an instance of S7.Net driver
     /// </summary>
     public partial class Plc : IDisposable
-    {
+    {   
         /// <summary>
         /// The default port for the S7 protocol.
         /// </summary>
