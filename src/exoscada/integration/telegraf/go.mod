@@ -86,7 +86,7 @@ require (
 	github.com/denisenkom/go-mssqldb v0.10.0
 	github.com/devigned/tab v0.1.1 // indirect
 	github.com/dimchansky/utfbom v1.1.1
-	github.com/docker/distribution v2.7.1+incompatible // indirect
+	github.com/docker/distribution v2.8.2+incompatible // indirect
 	github.com/docker/docker v20.10.9+incompatible
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.4.0 // indirect
