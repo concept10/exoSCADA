@@ -3,8 +3,9 @@ project(
   'c', 'vala',
   'javascript',
   'python3',
-  'nodejs'
-  version: '0.1.0'
+  'nodejs',
+  'gjs'
+  version: '0.2.1'
 )
 
 
