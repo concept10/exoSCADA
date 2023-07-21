@@ -5,7 +5,7 @@ project(
   'python3',
   'nodejs',
   'gjs'
-  version: '0.2.1'
+  version: '0.2.4'
 )
 
 
