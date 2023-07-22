@@ -1,6 +1,11 @@
 // Import RxJS library
 const Rx = imports.rxjs;
 
+
+// const _rx = imports.rxjs;
+// can't run node_modules
+
+
 // Import GLib library
 const GLib = imports.gi.GLib;
 
