@@ -11,7 +11,7 @@ import {
   getGjsVersion,
   getGLibVersion,
 } from "../troll/src/util.js";
-import { getFlatpakInfo } from "./util.js";
+import { getFlatpakInfo } from "./util.js";  TODO: Who is this troll utils?
 
 export default function About({ application }) {
   const flatpak_info = getFlatpakInfo();
@@ -86,5 +86,5 @@ function getValaVersion() {
 }
 
 function getBlueprintVersion() {
-  return "Blueprint 0.8.1";
+  return "Blueprint 0.8.1";  // TODO: I mean they say what ver is blueprint on now, what's rhe conflict here?  daaang?!
 }
