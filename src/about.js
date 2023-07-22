@@ -2,7 +2,7 @@
 
 
 import Gtk from "gi://Gtk";
-import { gettext as _ } from "gettext";
+// import { gettext as _ } from "gettext";
 import GLib from "gi://GLib";
 import Adw from "gi://Adw";
 

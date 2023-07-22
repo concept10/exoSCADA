@@ -21,3 +21,30 @@ int main (string[] args) {
 	var app = new Exoscada.Application ();
 	return app.runAsync (args);
 }
+void main(string[] args) {
+    // Initialize GLib
+    GLib.init(ref args);
+
+    // Create a new MainLoop to handle asynchronous events
+    var loop = new MainLoop(null, false);
+
+    // Run your asynchronous tasks
+    async_task(loop);
+
+    // Start the MainLoop to handle asynchronous events
+    loop.run();
+
+    // Cleanup after the MainLoop finishes
+    GLib.main_quit();
+}
+
+async void async_task(MainLoop loop) {
+    // Perform your asynchronous operations here
+    // For example, you can use GLib.Async.ready_callback() or GLib.Async.ready_callback_full() for more control
+
+    // Simulate an asynchronous task with a timeout
+    yield GLib.Async.timeout_seconds(2);
+
+    // Once the asynchronous task is complete, stop the MainLoop
+    loop.quit();
+}
