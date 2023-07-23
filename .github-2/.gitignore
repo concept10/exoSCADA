@@ -1,0 +1,3 @@
+// .gitignore (node, gjs, js)
+
+node_modules/

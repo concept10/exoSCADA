@@ -1,0 +1,35 @@
+name: bug
+description: bug report 
+labels: [needs-triage] 
+body:
+- type: textarea
+  attributes:
+    label: Current Behavior
+    description: A clear & concise description of what you're experiencing.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Expected Behavior
+    description: A clear & concise description of what you expected to happen.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Steps To Reproduce
+    description: Steps to reproduce behavior.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Environment
+    description: Describe system environment. 
+    value:
+        - Product: tlx_ -v
+        - Build:
+        - nodejs version:
+        - npm version:
+        - Platform/OS:
+        - Browser:
+  validations:
+    required: false

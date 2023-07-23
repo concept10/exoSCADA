@@ -1,0 +1,8 @@
+name: Epic
+description: Create Epic
+labels: [epic]
+body:
+- type: textarea
+  attributes:
+    label: Description
+    description: Describe the purpose of the Epic.
