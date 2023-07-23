@@ -1,7 +1,0 @@
-data/com.scada.exo.desktop.in
-data/com.scada.exo.appdata.xml.in
-data/com.scada.exo.gschema.xml
-src/window.ui
-src/main.vala
-src/window.vala
-
