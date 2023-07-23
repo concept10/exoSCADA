@@ -1,13 +1,24 @@
 // application.js
+// main application window logic
+
+
+
 
 import Adw from "gi://Adw";
 import Gio from "gi://Gio";
 
-// import Window from "./window.js";
-// import Actions from "./actions.js";
+
+
+
+
+
+
+
+import Window from "./window.js";
+import Actions from "./actions.js";
 import { settings, data_dir, ensureDir, readDemoFile } from "./util.js";
-// import { overrides } from "./overrides.js";
-// import Library from "./Library/Library.js";
+import { overrides } from "./overrides.js";
+import Library from "./Library/Library.js";
 import DocumentationViewer from "./DocumentationViewer.js";
 import { createSessionFromDemo, getSessions } from "./sessions.js";
 
@@ -72,8 +83,8 @@ function restoreSessions() {
   }
 }
 
-function newWindow() {
-  const demo = JSON.parse(readDemoFile("Welcome", "demo.json"));
+function exoMainWindow() {
+  const demo = JSON.parse(readDemoFile("Welcome", "main.json"));
   const session = createSessionFromDemo(demo);
   const { load } = Window({
     application,
