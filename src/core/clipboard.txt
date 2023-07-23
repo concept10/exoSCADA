@@ -1,0 +1,64 @@
+G-Inspector
+============
+G-Inspector is a GLib(GTK+) object/class inspector.
+
+
+
+* Requirements
+
+  glib-2.2.0 or higher
+  gtk+-2.2.0 or higher
+
+  glrr-YYYYMMDD or higher (*)
+  glrr-widgets-YYYYMMDD or higher (*)
+
+
+  (*) https://sourceforge.net/project/showfiles.php?group_id=134780
+
+
+* Building
+
+  % cd /path/to/builddir 
+  % bzcat ginspector-YYYYMMDD.tar.bz2 | tar -xf -
+  % cd ginspector-YYYYMMDD
+
+  % ./configure
+  % make
+
+
+
+* Installing (Optional)
+
+  % su
+  # make install
+
+  (G-Inspector works fine in build directory without installation)
+
+
+
+* Using
+
+  % /path/to/builddir/g-inspector-YYYYMMDD/g-inspector gtk-demo
+
+  or
+
+  % g-inspector gtk-demo	# (have already installed)
+
+
+
+* Acknowledegment
+
+  This software development was supported by
+  Information-technorogy Promotion Agency, Japan (IPA).
+
+
+
+* More Information
+
+  http://sourceforge.net/projects/g-inspector/
+
+
+
+* Contact
+
+  AOSASA Shigeru <lrr@tree.odn.ne.jp>
